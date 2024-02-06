@@ -12,6 +12,7 @@ O Sistema de Cadastro de Tarefas é uma aplicação simples e eficaz para gerenc
 - Requests: Uma biblioteca para fazer requisições HTTP em Python. 
  
 
+
 ## Instalação
 
 1. Certifique-se de ter o Python instalado em seu sistema a partir da versão 3.11.5 64bit ou superior.
@@ -28,6 +29,13 @@ O Sistema de Cadastro de Tarefas é uma aplicação simples e eficaz para gerenc
 - As tarefas são armazenadas em uma lista global chamada `tasks`. Cada tarefa é representada por uma instância da classe `Task`, que possui atributos como `Id`, `Title`, `Description` e `Completed`. O Id das tarefas é gerado sequencialmente, começando em  1.
 
 - O sistema não está utilizando um banco de dados para persistir as tarefas. Em vez disso, as tarefas são armazenadas na memória durante a execução da aplicação. Isso significa que, ao reiniciar a aplicação, todas as tarefas serão perdidas.
+
+
+
+## Licença
+
+![GitHub License](https://img.shields.io/github/license/wiltonmartinsdev/sistema_de_cadastro_de_tarefas)
+
 
 
 ## Aprendizados
